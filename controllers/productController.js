@@ -31,7 +31,7 @@ Name: "Dynamics 365 Business Central Essentials",
 DYN365_BUSCENTRAL_ESSENTIAL_Total: "3",
 DYN365_BUSCENTRAL_ESSENTIAL_Assigned: "5",
 DYN365_BUSCENTRAL_ESSENTIAL_Available: "-2"
-})
+}])
 }
 
 module.exports.getDetails=getDetails
