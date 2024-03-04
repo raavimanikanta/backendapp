@@ -1,5 +1,6 @@
 const getDetails=(req,res)=>{
-    res.send([
+    res.send(
+        [
 {
 "SkuPartNumber": "VISIOCLIENT",
 "skuId": "c5928f49-12ba-48f7-ada3-0d743a3601d5",
@@ -184,7 +185,8 @@ const getDetails=(req,res)=>{
 "POWERAPPS_DEV_Assigned": "5",
 "POWERAPPS_DEV_Available": "9995"
 }
-])
+]
+    )
 }
 
 module.exports.getDetails=getDetails
